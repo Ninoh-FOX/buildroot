@@ -16,10 +16,13 @@ config BR2_PACKAGE_GMENU2X
 
 if BR2_PACKAGE_GMENU2X
 
-config BR2_PACKAGE_GMENU2X_SHOW_CLOCK
-	bool "Show clock"
+config BR2_PACKAGE_GMENU2X_PLATFORM
+	string "Target platform"
 
-config BR2_PACKAGE_GMENU2X_CPUFREQ
-	bool "Support CPU frequency control"
-
+config BR2_PACKAGE_GMENU2X_STICK
+	string "stick"
+	
+config BR2_PACKAGE_GMENU2X_BATTERY
+	string "battery"
+	
 endif
