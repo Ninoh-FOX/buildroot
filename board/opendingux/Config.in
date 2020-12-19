@@ -20,5 +20,6 @@ menu "OpenDingux packages"
 	source "$BR2_EXTERNAL_OPENDINGUX_PATH/package/ubiboot/Config.in"
 	source "$BR2_EXTERNAL_OPENDINGUX_PATH/package/unlockvt/Config.in"
 	source "$BR2_EXTERNAL_OPENDINGUX_PATH/package/wlan-scan/Config.in"
+	source "$BR2_EXTERNAL_OPENDINGUX_PATH/package/dingux-commander/Config.in"
 
 endmenu
